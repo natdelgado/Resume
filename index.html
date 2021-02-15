@@ -22,22 +22,19 @@
         <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">Natalia Delgado</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav mr-auto justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home"><i class="fas fa-house-user"></i>Home<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#aboutMe">About me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#experienceAndEducation">Experience and Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#voluntaryParticipation">Voluntary participation</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#skillsAndExpertise">Skills and Expertise</a>
@@ -56,15 +53,15 @@
     <!--Home -->
     <main>
         <section id="home" class="jumbotron">
-            <div class="container-fluid p-3 my-3 container-fluid-max ">
-                <div class="row row-header justify-content-sm-center">
-                  <div class="col-12 col-sm-6 mx-auto">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-12 col-sm-4">
                         <h1 class="text-white">Natalia Delgado</h1>
                         <div class="mt-3">
                            <p class="text-white">Math Teacher / Front-End Developer / Python Developer / Oral Narrator</p>
                        </div> 
                   </div>
-                  <div class="col col-sm d-none d-sm-block">
+                  <div class="col-sm d-none d-sm-block">
                       <img src="Imagenes/Yo.jpg" alt="Yo" width="300px"></img>
                   </div>
                 </div>
@@ -74,12 +71,12 @@
     </main>
     
     <!--About me -->
-    <div id="aboutMe" class="container fullHeight" >
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-6 p-3 my-3 section" >
+    <div id="aboutMe" class="container" >
+        <div class="row align-items-center">
+            <div class="col-12 col-sm-4 name" >
                 <h2>About me</h2>
             </div>
-            <div class="col col-sm col-md">
+            <div class="col col-sm col-md section">
                 <p>Hello, I’m Natalia Delgado. I’m from Montevideo, Uruguay. 
                     I’m a student of Mathematics teacher career and web 
                     development. I have been a teacher for 5 years in secondary 
@@ -89,9 +86,9 @@
         </div>
     </div>
     <!--Experience and Education-->
-    <div id="experienceAndEducation" class="container fullHeight">
-        <div class="row row-content align-items-center" >
-            <div class="col-12 col-sm-6  p-3 my-3">
+    <div id="experienceAndEducation" class="container ">
+        <div class="row align-items-center" >
+            <div class="col-12 col-sm-6  section" style="background-color: #fec397; color: black;">
                 <div>
                     <h2>Experience</h2>
                 </div>
@@ -106,7 +103,7 @@
                     <p>March 2009 - Present</p> 
                 </div>
             </div>
-            <div class="col col-sm">
+            <div class="col col-sm section" style="background-color: #aec8ca; color: black;">
                 <div>
                     <h2>Education</h2>
                 </div>
@@ -129,35 +126,13 @@
         </div>
         
     </div>
-    <!--Voluntary participation-->
-    <div id="voluntaryParticipation" class="container fullHeight">
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-6 p-3 my-3">
-                <h2>Volunteering</h2>
-            </div>
-            <div class="col col-sm">
-                <div>
-                    <h3>SEMUR -  CUREM 6</h3>
-                    <p>Participation in the support and assistance team</p>
-                    <p>2016</p>
-                </div>
-                <div>
-                    <h3>Me fuí a Examen</h3>
-                    <p>Preparing secondary students for take their maths final exams to enter university</p>
-                    <p>November 2018 - January 2019</p>   
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
      <!--Skills and Expertise-->
-    <div id="skillsAndExpertise" class="container fullHeight">
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-6  p-3 my-3">
+    <div id="skillsAndExpertise" class="container ">
+        <div class="row align-items-center">
+            <div class="col-12 col-sm-4  name" style="background-color: #d28a7c; color: black;">
                 <h2>Skills and Expertise</h2>
             </div>
-            <div class="col col-sm">
+            <div class="col col-sm section" style="background-color: #6f5f5e; ">
                 <div>
                     <h3>Tools</h3>
                     <ul class="list-unstyled">
@@ -187,25 +162,28 @@
         </div>
     </div>
     <!--Projects-->
-    <div id="projects" class="container fullHeight">
-        <div class="row row-content align-items-center">
-            <div>
+    <div id="projects" class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-sm-4 name" style="background-color: #894242;">
                 <h2>Projects</h2>
             </div>
-            <div>
-                <h3>Front-End Developer</h3>
-                <p></p>
+            <div class="col col-sm col-md section" style="background-color: #6d8c8e;"  >
+                <div >
+                    <h3>Front-End Developer</h3>
+                    <p></p>
+                </div>
+                <div>
+                    <h3>Math Teacher</h3>
+                    <p></p>
+                </div>
             </div>
-            <div>
-                <h3>Math Teacher</h3>
-                <p></p>
-            </div>
+            
         </div>
     </div>
     <!--Contact-->
-    <div id="contact" class="container fullHeight">
+    <div id="contact" class="container ">
         <div class="row">
-            <div class="col-12 col-sm-4 col-md-6 p-3 my-3">
+            <div class="col-12 col-sm-4 name" style="background-color: #fec397; color:black">
                 <div>
                     <h2>Contact</h2>
                     <h4>Natalia Delgado</h4>
@@ -214,47 +192,43 @@
       
                 </div>
             </div>    
-            <div class="col col-sm col-md">
-                <h3>Leave a message</h3>
-                <form>
-                    <div class="form-group row">
-                        <label for="name" class="col-md-2 col-form-label">Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" >
-                        </div>
+            <div class="col col-sm col-md section" style="background-color: #d28a7c;">
+                <div class="card border-dark mb-3">
+                    <div class="card-header h3">Leave a message</div>
+                    <div class="card-body" style="color: black;">
+                        <form>
+                            <div class="form-group row">
+                                <label for="name" class="col-md-3 col-form-label">Name</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" >
+                                </div>
+                            </div>
+        
+                            <div class="form-group row">
+                                <label for="email" class="col-md-3 col-form-label">Email</label>
+                                <div class="col-md-9">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                </div>
+                            </div>
+                        
+                            <div class="form-group row">
+                                <label for="message" class="col-md-3 col-form-label">Message</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" placeholder="Enter your message here" id="message" name="message" rows="8"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-danger" id="sendMessage" name="sendMessage" placeholder="sendMessage"  >Send message</button>
+                                </div>
+                            </div>
+            
+                        </form>
+                     
                     </div>
-
-                    <div class="form-group row">
-                        <label for="email" class="col-md-2 col-form-label">Email</label>
-                        <div class="col-md-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-md-2 col-form-label">Subject</label>
-                        <div class="col-md-10">
-                            <select type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="opel">Opel</option>
-                                <option value="audi">Audi</option>
-                            </select>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group row">
-                        <label for="message" class="col-md-2 col-form-label">Message</label>
-                        <div class="col-md-10">
-                            <textarea class="form-control" placeholder="Enter your message here" id="message" name="message" row="10"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-danger" id="sendMessage" name="sendMessage" placeholder="sendMessage"  >Send message</button>
-                        </div>
-                    </div>
-           
-                </form>
+                </div>
+                
+               
             </div>
         </div>
     </div>
